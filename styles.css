@@ -1,0 +1,97 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/07/11/07/forest-1030832_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Finger Paint', cursive;
+  color: rgb(255, 251, 251);
+  
+}
+
+.Content .container {
+  background-color: rgba(0, 0, 0, 0.795); 
+  padding: 25px;
+  
+}
+
+.About { 
+  float: right;
+   background-color: rgba(0, 0, 0, 0.751); 
+   width: 300px; 
+   padding: 25px; 
+   border-style: solid;
+   border-color: rgb(59, 59, 59);
+   margin-top: 5px;
+}
+
+.About img {
+  width: 100%;
+}
+
+.Char-list {
+  float: left; 
+  background-color: rgba(0, 0, 0, 0.751); 
+  padding: 25px; 
+  border-style: solid; 
+  border-color: rgb(59, 59, 59);
+  margin-top: 5px;
+}  
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: rgb(121, 121, 121);
+}
+
+.Content .container h1 {
+  text-shadow: 2px 2px 5px black;
+}
+
+footer {
+  background-color: #222222;
+  padding: 10px;
+  text-align: center;
+  color: rgb(121, 121, 121);
+}
+
+
+.carousel img{
+  object-fit: cover;
+  width: 100% !important;
+  height: 500px;
+  
+ }
+
+ .text-content2 .sidebar {
+   display: inline-block;
+   background-color: rgb(121, 121, 121);
+   width: 360px;
+   height:385px;
+   margin-top: 130px;
+ }
+
+ .text-content2 .sidebar h3{
+  
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+ .text-content2 .sidebar img{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 10%
+ }
+
+.text-content2 .text-box {
+  width: 700px;
+  float: right;
+}
+
+.text-content2 .text-box2 {
+  height: 800px;
+}
